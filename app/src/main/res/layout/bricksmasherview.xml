@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/smasher"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/scoreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="Score=0"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/livesview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lives:3" />
+
+
+    <LinearLayout
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_below="@id/scoreview"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/paddle"
+        android:layout_width="109dp"
+        android:layout_height="39dp"
+        android:src= "@drawable/paddlenew"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="471dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="106dp"
+        android:layout_marginStart="106dp"/>
+
+
+
+
+</RelativeLayout>
